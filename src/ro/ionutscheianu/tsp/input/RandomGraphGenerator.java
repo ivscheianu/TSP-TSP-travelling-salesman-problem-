@@ -17,6 +17,10 @@ public class RandomGraphGenerator {
         this.maxCost = maxCost;
     }
 
+    /**
+     * Creates a random complete graph
+     * @return a complete graph
+     */
     public Map<Integer, List<NodeInfo>> getRandomGraph() {
         Map<Integer, List<NodeInfo>> adjacencyList = new HashMap<>();
         final Random random = new Random();
